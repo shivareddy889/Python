@@ -1,0 +1,6 @@
+first = float(input(" enter the first:"))
+second = float(input("enter the second:"))
+
+sum = (first+second)/2
+
+print("enter the value:", sum)

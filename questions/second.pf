@@ -1,0 +1,5 @@
+square = int(input("enter the value:" ))
+
+area = square*square
+
+print("enter the area:", area)
