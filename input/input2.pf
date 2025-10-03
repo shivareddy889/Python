@@ -1,0 +1,11 @@
+name = input("enter the name: ")
+age = int(input("enter ur age: "))
+percen = float(input("enter the per: "))
+
+print("welcome:", name)
+print("ur age is:", age)
+print("ur percent is:", percen)
+
+print(type(name))
+print(type(age))
+print(type(percen))

@@ -1,0 +1,24 @@
+a = 10
+b = 20
+
+sum = a+b
+sub = a-b
+
+# Not (opp
+print(not (sum>sub))
+print(not (sum>=sub))
+print(not (sum<sub))
+print(not (sub>sum))
+
+
+# ADD
+c = 40
+d = 30
+sum = c+d
+sub = c-d
+
+print("add Operator:", (sum == sub) and (sum < sub))
+
+print("add:",(sum > sub) and (sub < sum))
+
+print("or",(sum > sub) or (sum == sub))
